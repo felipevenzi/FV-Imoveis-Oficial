@@ -1,0 +1,878 @@
+section.module.parallax-efeito{
+    /*border-radius: 10px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /*background-position: 50% 50%;*/
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    -webkit-backgrouund-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+section.module.parallax-img{
+    background: url(../img/home/001\ -\ home.png) 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*background-position: bottom 1000px !important;*/
+    
+}
+
+section.module.parallax-efeito .texto-home{
+    color: #fff;
+    z-index: 50 !important;
+    -webkit-text-shadow: 0 2px 3px rgba(0, 0, 0, 0.822);
+    -moz-text-shadow : 0 2px 3px rgba(0,0,0,0.822);
+    -o-text-shadow : 0 2px 3px rgba(0,0,0,0.822);
+    text-shadow : 0 2px 3px rgba(0,0,0,0.822);
+}
+
+section .bg-body{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    width: 54%;
+    height: 80px;
+    border-radius: 12px;
+}
+
+section .select-config{
+    margin: 10px;
+    height: 60px;
+    border: 1px solid rgb(124, 152, 167);
+    border-radius: 8px !important;
+}
+
+section .select-config:hover{
+    border-color: var(--primary);
+}
+
+section .campo-botao-confg {
+    width: auto;
+}
+
+section .campo-botao-confg-1{
+    width: auto;
+}
+
+section .btn-pesquisar-home{
+    margin: 10px;
+    height: 60px !important;
+    width: 125px;
+    border-radius: 12px;
+}
+
+section .input-config{
+    margin: 10px;
+    height: 60px;
+    border: 1px solid rgb(124, 152, 167);
+    border-radius: 8px !important;
+}
+
+section .input-config:hover{
+    border-color: var(--primary);
+}
+
+section .campo-input{
+    height: 60px;
+    border: 1px solid rgb(124, 152, 167);
+    border-radius: 8px !important;
+}
+
+section .borda-1{
+    border: 1px solid rgb(124, 152, 167);
+    border-radius: 8px !important;
+}
+
+/*Tipos de Propriedade*/
+section .circulo{
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: var(--primary-opacity);
+}
+
+section .link-mais{
+    text-decoration: none;
+}
+
+section .dropdown-item:hover{
+    background-color: var(--primary-opacity);
+}
+
+section .propriedades-hover{
+    transition: ease-out all 0.2s !important;
+}
+
+section .propriedades-hover:hover {
+    background-attachment: var(--secundary);
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15) !important;
+}
+/*FIM Tipos de Propriedade*/
+
+/*Compra e Venda*/
+section .card-hover{
+    text-decoration: none;
+    color: var(--black);
+    transition: all ease-out 0.2s !important;
+}
+
+section .card-hover:hover{
+    background: var(--primary-opacity) !important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2) !important;
+    color: var(--primary) !important; 
+}
+/*FIM Compra e Venda*/
+
+/*Principais Ofertas*/
+section .bg-useBroker{
+    background-image: linear-gradient(to right, var(--primary), var(--tertiary));
+    color: var(--white);
+}
+
+section .text-broker{
+    color: var(--primary);
+}
+
+
+
+section .texto{
+    text-decoration: none !important;
+    color: var(--black);
+    transition: all ease-out 0.2s !important;
+}
+
+section .texto:hover{
+    color: var(--primary);
+}
+
+section .texto-card{
+    color: var(--grey-1);
+}
+/*FIM Principais Ofertas*/
+
+/*ADD HOHE*/
+
+#botoes-tipos-propriedade button{
+    text-align: left;
+    width: 100% !important;
+    border-radius: 0px;
+}
+
+section .button-group button {
+    padding: 5px;
+    background: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+section .button-group button:hover {
+    background-color: var(--primary-opacity);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+  
+section .button-group button + button {
+    margin-left: 3px;
+}
+  
+section .button-group button.active {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/*Adicionado Hoje*/
+section .card{
+    padding: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2) !important;
+    border: 0;
+    transition: all ease-out 0.3s;
+}
+
+section .card:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+section .texto-card{
+    color: var(--grey-1);
+}
+
+section .texto-estilo{
+    text-decoration: none;
+}
+
+section .localizacao{
+    text-decoration: none !important;
+    color: var(--grey-1);
+}
+
+section .botao-favorito{
+    margin: 20px;
+}
+
+#add-hoje .img-1{
+    display: none;
+}
+
+#add-hoje .img-sm{
+    display: block;
+}
+/*FIM ADD HOJE*/
+
+/*NOSSOS PARCEIRROS*/
+section a.link-parceiros {
+    padding: 0 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--light);
+    height: 100px;
+    transition: ease-out all 0.2s;
+}
+  
+section a.link-parceiros:hover {
+    border-radius: 10px;
+    transform: scale(1.0);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+  
+section a.link-parceiros img {
+    filter: grayscale(100%);
+    max-height: 70px;
+    width: 400px;
+    opacity: 0.6;
+}
+  
+section a.link-parceiros:hover img {
+    filter: none;
+    opacity: 1;
+}
+/*FIM NOSSOS PARCEIROS*/
+
+/*PRINCIPAIS CORRETORES IMOBILIÁRIO*/
+section .img-corretor{
+    width: 100%;
+    border-radius: 10px;
+}
+
+section .comentario{
+    border-radius: 15px;
+}
+
+section .texto-corretor{
+    color: var(--grey-1);
+}
+
+section .estrela{
+    color: var(--gold);
+}
+/*FIM PRINCIPAIS CORRETORES IMOBILIÁRIO*/
+
+/*RESPONSIVIDADE*/
+@media (max-width: 1920px){
+    #add-hoje{
+        height: 38rem;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: 120px !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 34rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto;
+    }
+
+    #add-hoje .card-0{
+        width: 37rem;
+        height: 29rem;
+    }
+
+    #add-hoje .card-1{
+        margin-left: 40px !important;
+        width: 390px !important;
+    }
+}
+
+@media (max-width: 1440px){
+    #add-hoje .card-1{
+        width: 640px;
+    }
+    
+
+    #add-hoje .add-hoje-cards{
+        margin-left: 117px !important;
+    }
+}
+
+@media (max-width: 1366px){
+    section .bg-body{
+        width: 75%;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: 55px !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 34rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto;
+    }
+
+    #add-hoje .card-0{
+        width: 35rem;
+        height: 29rem;
+    }
+
+    #add-hoje .card-1{
+        margin-left: 65px !important;
+        width: 369px !important;
+    }
+}
+
+@media (max-width: 1280px){
+    section .bg-body{
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px){
+    #add-hoje .add-hoje-cards{
+        margin-left: 55px !important;
+    }
+
+    section .corretor-1024{
+        display: none;
+    }
+}
+
+@media (max-width: 1199px){
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 34rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto;
+    }
+
+    #add-hoje .card-0{
+        width: 30rem;
+    }
+
+    #add-hoje .img-0{
+        height: 31rem !important;
+    }
+
+    #add-hoje .card-1{
+        margin-left: 40px !important;
+        width: 392px !important;
+    }
+
+    section .corretor-1440{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px){
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 34rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto;
+    }
+
+    #add-hoje .card-0{
+        width: 30rem;
+    }
+
+    #add-hoje .img-0{
+        height: 31rem !important;
+    }
+
+    #add-hoje .card-1{
+        margin-left: 40px !important;
+        width: 392px !important;
+    }
+
+    .card-cidade{
+        width: auto !important;
+    }
+}
+
+@media (max-width: 991px){
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 33rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto;
+    }
+
+    #add-hoje .card-0{
+        width: 40rem;
+    }
+
+    #add-hoje .card-1{
+        margin-top: 0px !important;
+        margin-left: auto !important;
+        width: 40rem !important;
+    }
+
+    section .resposivo-768{
+        width: 325px !important;
+    }
+
+    section .resposivo-768-1{
+        width: 325px !important;
+    }
+
+    section .responsivo{
+        font-size: larger;
+    }
+}
+
+@media (min-width: 992px){
+    #add-hoje .btn-sumir-filtro-add-hoje-1{
+        display: none;
+    }
+}
+
+@media (max-width: 991px){
+    #add-hoje .btn-sumir-filtro-add-hoje{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 34rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto !important;
+    }
+
+    #add-hoje .card-0{
+        width: 40rem !important;
+    }
+
+    #add-hoje .card-1{
+        margin-top: 0px !important;
+        margin-left: auto !important;
+        width: 40rem !important;
+    }
+
+    .campo-pesquisar{
+        width: 100% !important;
+        padding-top: 2px;
+    }
+
+    /*style="height: 64px; width: 241px; font-size: 18px; font-weight: 600;"*/
+
+    .btn-pesquisar{
+        margin-top: 5px;
+        width: 100%;
+        height: 64px;
+    }
+
+    #add-hoje font{
+        font-size: 18px;
+    }
+
+    #add-hoje .ajuste-responsive{
+        width: 325px;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: 310px;
+    }
+
+    #add-hoje .card-0{
+        width: 315px;
+    }
+
+    #add-hoje .card-1{
+        width: 315px;
+    }
+
+    section .resposivo-768{
+        width: 325px !important;
+    }
+
+    section .resposivo-768-1{
+        width: 325px !important;
+    }
+
+    #principais-ofertas .card-config{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px){
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 32rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto !important;
+    }
+
+    #add-hoje .card-0{
+        width: 30rem !important;
+    }
+
+    #add-hoje .card-1{
+        margin-top: 0px !important;
+        margin-left: auto !important;
+        width: 30rem !important;
+    }
+
+    section .resposivo-768{
+        width: 225px !important;
+    }
+
+    section .resposivo-768-1{
+        width: 225px !important;
+    }
+
+    section .responsivo{
+        font-size: larger;
+    }
+}
+
+@media (max-width: 520px){
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 32rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto !important;
+    }
+
+    #add-hoje .card-0{
+        width: 28rem !important;
+    }
+
+    #add-hoje .card-1{
+        margin-top: 0px !important;
+        margin-left: auto !important;
+        width: 28rem !important;
+    }
+
+    #compra-venda .alinhamento{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 425px){
+    #add-hoje .btn-sumir-filtro-add-hoje-1{
+        order: 2;
+    }
+
+    #add-hoje .ver-tudo-sumi{
+        order: 1;
+    }
+
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        height: 33rem !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto !important;
+    }
+
+    #add-hoje .card-0{
+        width: 22rem !important;
+        height: auto;
+    }
+
+    #add-hoje .card-1{
+        margin-top: 0px !important;
+        margin-left: auto !important;
+        width: 22rem !important;
+    }
+
+    .seleção-propriedade{
+        margin-bottom: 5px !important;
+    }
+
+    #pesquise-cidade font{
+        font-size: 20px;
+    }
+
+    #pesquise-cidade .ver-tudo-cidade{
+        font-size: 16px;
+    }
+
+    #module-2 .responsive-425{
+        width: 100% !important;
+    }
+
+    #add-hoje .img-1{
+        display: block;
+    }
+    
+    #add-hoje .img-sm{
+        display: none;
+    }
+
+    #calculadora .btn-calc{
+        width: 100%;
+    }
+
+    #add-hoje .ver-tudo-sumir{
+        transform: translateY(-95%) scale(0);
+    }
+
+    #add-hoje .config-h2{
+        width:330px;
+    }
+
+    #add-hoje .card-0{
+        width: 375px;
+    }
+
+    #add-hoje .card-1{
+        width: 375px;
+    }
+}
+
+@media (max-width: 393px){
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        margin-left: auto !important;
+        width: 150px !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto !important;
+    }
+
+    #add-hoje .card-0{
+        width: 320px !important;
+        height: auto !important;
+    }
+
+    #add-hoje .card-1{
+        margin-left: auto !important;
+        width: 320px !important;
+        height: 12rem !important;
+    }
+
+    #add-hoje .img-1{
+        height: 23vh !important;
+    }
+
+}
+
+@media (max-width: 375px){
+    #add-hoje .config{
+        margin-bottom: 40px;
+    }
+
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        margin-left: auto !important;
+        width: 150px !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto !important;
+    }
+
+    #add-hoje .card-0{
+        width: 19rem !important;
+        height: auto !important;
+    }
+
+    #add-hoje .card-1{
+        margin-left: auto !important;
+        width: 19rem !important;
+        height: 12rem !important;
+    }
+
+    #add-hoje .mg-b-individual{
+        margin-top: 35px !important;
+    }
+
+    #add-hoje .img-1{
+        height: 26vh !important;
+    }
+
+    #add-hoje .ver-tudo-sumir{
+        transform: translateY(-95%) scale(0);
+    }
+    
+    #add-hoje .config-h2{
+        width:340px;
+    }
+}
+
+@media (max-width: 360px){
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        margin-left: auto !important;
+        width: 150px !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto !important;
+    }
+
+    #add-hoje .card-0{
+        width: 18rem !important;
+        height: auto !important;
+    }
+
+    #add-hoje .card-1{
+        margin-left: auto !important;
+        width: 18rem !important;
+        height: 12rem !important;
+    }
+
+    
+
+    #add-hoje .mg-b-individual{
+        margin-top: 0 !important;
+    }
+
+    #add-hoje .img-1{
+        height: 26vh !important;
+    }
+}
+
+@media (max-width: 320px){
+    #add-hoje{
+        height: auto;
+    }
+
+    #add-hoje .add-hoje-cards{
+        margin-left: auto !important;
+    }
+
+    #add-hoje .ajuste-responsive{
+        margin-left: auto !important;
+        width: 150px !important;
+    }
+
+    #add-hoje .ajuste-responsive-1{
+        width: auto !important;
+    }
+
+    #add-hoje .card-0{
+        width: 250px !important;
+        height: auto !important;
+    }
+
+    #add-hoje .card-1{
+        margin-left: auto !important;
+        width: 250px !important;
+        height: 12rem !important;
+    }
+
+    #add-hoje .mg-b-individual{
+        margin-top: 0 !important;
+    }
+
+    #add-hoje .img-1{
+        height: 22vh !important;
+    }
+
+    #add-hoje font{
+        font-size: 20px;
+    }
+
+    #add-hoje .ver-tudo-sumir{
+        transform: translateY(-95%) scale(0);
+    }
+
+    #add-hoje .config-h2{
+        width:470px;
+    }
+}
+/*RESPONSIVIDADE*/

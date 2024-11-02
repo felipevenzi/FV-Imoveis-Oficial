@@ -1,0 +1,235 @@
+#basic-addon1{
+    background-color: var(--primary-opacity);
+}
+
+.vscomp-toggle-button{
+    padding: 9px 30px 9px 9px;
+    border-radius: 7px;
+}
+
+.texto-quarto{
+    height: 100%;
+}
+
+#filtro-vendas-imovel .texto-grey{
+    color: var(--grey-1) !important;
+}
+
+.btn-preco{
+    width: 295px;
+    height:40px !important;
+}
+
+#preco-select .fs-base{
+    background-color: var(--primary-opacity) !important;
+}
+
+.btn-tema-filtro{
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+}
+
+.btn-tema-filtro:hover{
+    background-color: var(--primary-1) !important;
+}
+
+.btn-tema-mais-filtro{
+    height: 40px;
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+    width: 295px !important;
+}
+
+.btn-tema-mais-filtro:hover{
+    background-color: var(--primary-1) !important;
+}
+
+#preco-modal .input-group-text{
+    background-color: var(--primary-opacity);
+}
+
+#pag-venda .cursor-pointer{
+    cursor: pointer !important;
+}
+
+#card-pag-venda a:hover{
+    color: var(--primary) !important;
+}
+
+#card-pag-venda .card-hover{
+    transition: ease-out all 0.2s !important;
+}
+
+#card-pag-venda .card-hover:hover{
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
+#paginacao-venda-imoveis .page-item{
+    border-radius: 50% !important;
+}
+
+#paginacao-venda-imoveis li a{
+    color: var(--primary);
+}
+
+#paginacao-venda-imoveis li a .ativado{
+    border: 1 !important;
+}
+
+#paginacao-venda-imoveis li a:hover{
+    color: var(--link-useBroker) !important;
+    border-radius: 100% !important;
+    background-color: var(--primary-opacity) !important;
+}
+
+#paginacao-venda-imoveis li:hover{
+    color: var(--link-useBroker) !important;
+    border-radius: 50% !important;
+}
+
+
+
+/*RESPONSIVIDADE*/
+@media(max-width: 1399px){
+    #card-pag-venda .texto-carde-config{
+        display: none;
+    } 
+}
+
+@media(min-width: 1400px){
+    #card-pag-venda .texto-carde-config-1{
+        display: none;
+    } 
+}
+
+@media (max-width: 1366px){
+    /*FILTRO PG VENDA IMÓVEL*/
+    .btn-preco{
+        width: 100%;
+    }
+    /*FIM FILTRO PG VENDA IMÓVEL*/
+
+    .btn-tema-mais-filtro{
+        width: 250px !important;
+    }
+}
+
+@media(max-width: 1199px){
+    #card-pag-venda .texto-carde-config-1{
+        display: none;
+    } 
+}
+
+@media(min-width: 1200px){
+    #card-pag-venda .texto-carde-config-2{
+        display: none;
+    } 
+}
+
+@media (min-width: 1060px){
+    #preco-modal{
+        display: none;
+    }
+}
+
+@media (max-width: 1059px){
+    #preco-select .preco-config{
+        display: none;
+    }
+
+    .btn-tema-mais-filtro{
+        width: 205px !important;
+    }
+}
+
+@media(max-width: 991px){
+    #card-pag-venda .card-body{
+        margin: -12px !important;
+    }
+
+    #card-pag-venda .texto-carde-config-2{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    /*FILTRO PG VENDA IMÓVEL*/
+    .btn-preco{
+        width: 100%;
+    }
+
+    .config-selects-venda{
+        width: 200px !important;
+    }
+    /*FIM FILTRO PG VENDA IMÓVEL*/
+
+    .config-0{
+        order: 2;
+    }
+
+    .btn-tema-mais-filtro{
+        width: 260px !important;
+    }
+}
+
+@media(max-width: 767px){
+    #card-pag-venda .texto-carde-config{
+        display: block;
+    }
+
+    #card-pag-venda .img-card{
+        border-top-right-radius: 5px;
+    }
+}
+
+@media (max-width: 425px){
+    .config-mais-filtro{
+        margin-top: 5px !important;
+        width: auto;
+    }
+
+    .btn-tema-mais-filtro{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 412px){
+    .config-selects-venda{
+        width: auto !important;
+    }
+
+    .config-selects-venda-1{
+        width: 53% !important;
+    }
+}
+
+@media (max-width: 390px){
+    .config-selects-venda{
+        width: auto !important;
+    }
+
+    .config-selects-venda-1{
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 375px){
+    .config-tipos-imoveis{
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+    .btn-tema-mais-filtro{
+        width: 250px !important;
+    }
+
+    .config-quartos{
+        margin-top: 5px !important;
+        width: 100% !important;
+    }
+
+    .quarto-select{
+        width: 250px !important;
+    }
+}
+/*FIM RESPONSIVIDADE*/

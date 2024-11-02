@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.35mm" height="6.35mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 150.58 150.58"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#9C28B1;fill-rule:nonzero}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 150.58l150.58 0 0 -150.58 -150.58 0 0 150.58z"/>
+   </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_2821549771232">
+    <polygon class="fil0" points="84.17,57.98 96.78,78.05 104.92,78.05 104.92,40.26 96.09,40.26 96.09,60.38 83.48,40.31 75.34,40.31 75.34,78.5 84.17,78.5 "/>
+    <polygon class="fil0" points="69.55,69.41 57.26,69.41 57.26,63.66 68.64,63.66 68.64,54.83 57.26,54.83 57.26,49.08 69.55,49.08 69.55,40.26 48.44,40.26 48.44,78.23 69.55,78.23 "/>
+    <polygon class="fil0" points="117.9,78.5 126.72,78.5 126.72,49.08 134.88,49.08 134.88,40.26 109.81,40.26 109.81,49.08 117.9,49.08 "/>
+    <path class="fil0" d="M28.05 67.55l11.05 12.77 6.67 -5.77 -9.58 -11.07c4.55,-1.8 7.76,-6.13 7.76,-11.16 0,-6.65 -5.6,-12.06 -12.49,-12.06l-12.24 0 0 38.25 8.82 0 0 -10.95zm0 -18.47l3.42 0c1.99,0 3.67,1.48 3.67,3.23 0,1.75 -1.68,3.24 -3.67,3.24 -0.82,0 -2.11,0 -3.42,0.01l0 -6.48z"/>
+    <path class="fil0" d="M150.58 20.39l-55.65 0 0 -8.61 -19.64 -11.78 -19.64 11.78 0 8.61 -55.65 0 0 79.7 55.65 0 0 50.49 39.27 0 0 -50.49 55.65 0 0 -79.7zm-86.11 -3.61l10.82 -6.49 10.82 6.49 0 3.61 -21.63 0 0 -3.61 0 0zm21.63 124.98l-21.63 0 0 -41.66 21.63 0 0 41.66zm55.65 -50.49l-132.93 0 0 -62.06 132.93 0 0 62.06z"/>
+   </g>
+  </g>
+  <polygon class="fil1" points="-0,150.58 150.58,150.58 150.58,0 -0,0 "/>
+ </g>
+</svg>

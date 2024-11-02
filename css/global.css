@@ -1,0 +1,110 @@
+.btn-pesquisar-home{
+    color: var(--white) !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    background-color: var(--primary) !important;
+}
+
+.mapeamento{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.mapeamento:hover{
+    color: var(--link-useBroker);
+}
+
+.btn-simule-financiamento{
+    background-color: var(--link-useBroker) !important;
+    text-decoration: none !important;
+    color: var(--white) !important;
+}
+
+.btn-simule-financiamento:hover{
+    background-color: var(--primary-button) !important;
+}
+
+.btn-tema-site{
+    background-color: var(--primary) !important;
+    border: 0 !important;
+    color: var(--white) !important;
+    width: 180px;
+}
+
+.btn-tema-site:hover{
+    background-color: var(--primary-button) !important;
+    border: 0 !important;
+    color: var(--white) !important;
+    width: 180px;
+}
+
+#icon-contato .card-title{
+    color: var(--black);
+}
+
+.btn-outline-danger{
+    margin: 5px;
+    border-radius: 20px !important;
+    border: 0 !important;
+}
+
+.btn-outline-danger:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+section .ver-tudo{
+    text-decoration: none;
+    color: var(--black);
+}
+
+section .ver-tudo:hover{
+    color: var(--primary);
+}
+
+.btn-tema-site-1{
+    background-color: var(--primary) !important;
+    border: 0 !important;
+    color: var(--white) !important;
+}
+
+.btn-tema-site-1:hover{
+    background-color: var(--primary-button) !important;
+    border: 0 !important;
+    color: var(--white) !important;
+    box-shadow: 2px 2px 10px 0px var(--primary-button) !important;
+}
+
+.borda{
+    border-radius: 12px !important;
+}
+
+.borda:hover{
+    border-color: var(--primary) !important;
+}
+
+.links-rapidos{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.links-rapidos:hover{
+    color: var(--link-useBroker);
+}
+
+.voltar{
+    text-decoration: none;
+    color: var(--link-useBroker);
+}
+
+.voltar:hover{
+    color: var(--primary);
+}
+
+.btn-tema-site-fechar{
+    background-color: var(--secundary) !important;
+    color: var(--white) !important;
+}
+
+.btn-tema-site-fechar:hover {
+    background-color: var(--primary-button) !important;
+}

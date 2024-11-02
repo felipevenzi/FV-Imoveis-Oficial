@@ -1,0 +1,80 @@
+#header{
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .offcanvas-body{
+    width: auto;
+}
+
+#header .nav-link{
+    font-weight: 500;
+    color: var(--black);
+    border-bottom: solid 3px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 3px var(--primary);
+    color: var(--primary);
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 3px var(--primary);
+}
+
+#header .dropdown-item:hover{
+    background-color: var(--primary-opacity);
+}
+
+#header.active{
+    position: fixed;
+    background: var(--white);
+    box-shadow: 0 0 30px 0 rgb(0, 0, 0.2);
+    z-index: 2;
+}
+
+body .logo{
+    width: 40px;
+}
+
+#header .bg-useBroker{
+    background-image: linear-gradient(to right, var(--primary), var(--tertiary));
+    color: var(--white);
+}
+
+#header .text-broker{
+    color: var(--primary);
+}
+
+#header .home{
+    color: var(--tertiary);
+}
+
+#header .contato{
+    color: var(--tertiary);
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 767px){
+    /*HEADER*/
+    #header .btn-simule-financiamento{
+        width: auto;
+    }
+
+    #header .btn-tema-site{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    #header .btn-simule-financiamento{
+        width: auto;
+    }
+
+    #header .btn-tema-site{
+        width: 100%;
+    }
+}
+
+/*FIM RESPONSIVIDADE*/

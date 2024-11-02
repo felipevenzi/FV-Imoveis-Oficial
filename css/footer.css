@@ -1,0 +1,519 @@
+#footer{
+    background: var(--primary);
+    width: 100% !important;
+    padding-top: 15px;
+}
+
+#footer .logo-footer{
+    width: 80px;
+}
+
+#footer .font-size{
+    font-size: 12px;
+}
+
+#footer .rede a {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+  }
+  
+  #footer .rede a {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+  }
+  
+  #footer .rede a:first-child {
+    margin-left: 0;
+  }
+
+#footer .rede a{
+    display: flex;
+    width: 40px;
+    border-radius: 20px !important;
+    padding-right: 500;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
+#footer .rede ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+  
+#footer .rede ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 15px;
+    justify-content: left;
+}
+  
+#footer .rede ul li:first-child {
+    margin-left: 0;
+}
+  
+#footer .rede ul li a {
+    color: var(--primary);
+    display: flex;
+    margin: -10px;
+    width: 36px;
+    height: 36px;
+    border: 2px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px 0 var(--primary-opacity);
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
+
+#footer .rede ul li a:hover {
+    color: var(--link-useBroker);
+    box-shadow: 0 2px 10px 0 #ea6a0283;
+    background-color: var(--link-useBroker);
+}
+
+#footer .links-rapidos a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+#footer .links-rapidos a:hover{
+    text-decoration: none;
+    color: var(--white);
+}
+
+#footer .tamanho-subtitulo{
+    color: var(--tertiary);
+    font-size: 12px;
+}
+
+#footer .conteudo-postes-rct{
+    font-size: 12px;
+    color: var(--grey);
+}
+
+#footer .links-rapidos a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+#footer .links-rapidos a:hover{
+    text-decoration: none;
+    color: var(--tertiary);
+}
+
+#footer .site-use-broker{
+    color: var(--gold) !important;
+    text-decoration: none;
+}
+
+#footer .site-use-broker:hover{
+    color: var(--tertiary) !important;
+    text-decoration: none;
+}
+
+#footer .app{
+    border-radius: 20px;
+    padding-left: 60px;    
+}
+
+#footer .img-cel{
+    margin-top: -50px;
+}
+
+#footer .rodape{
+    color: var(--primary-button) !important;
+}
+
+#footer .texto-claro{
+    color: var(--white) !important;
+}
+
+#footer .texto-footer-cinza{
+    color: var(--footer-2) !important;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 1440px){
+    #destaques{
+        width: 60%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1199px){
+    #footer .app{
+        padding: -20px;
+    }
+
+    #footer .area-img{
+        margin-right: 50px;
+    }
+
+    #footer .img-cel{
+        margin-top: -69px;
+    }
+
+    #footer .corpo-texto{
+        margin: auto;
+        margin-right: 10px;
+    }
+
+    #footer .area-loja{
+        align-items: center;
+        width: 300px;
+        align-self: center;
+        margin: auto;
+    }
+
+    #footer .loja-app, .loja-app-1{
+        width: 130px;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 1024px){
+    /*FOOTER*/
+    #footer .app{
+        padding: -20px;
+    }
+
+    #footer .area-img{
+        margin-right: 50px;
+    }
+
+    #footer .img-cel{
+        margin-top: -69px;
+    }
+
+    #footer .corpo-texto{
+        margin: auto;
+        margin-right: 10px;
+    }
+
+    #footer .area-loja{
+        align-items: center;
+        width: 300px;
+        align-self: center;
+        margin: auto;
+    }
+
+    #footer .loja-app, .loja-app-1{
+        width: 130px;
+        margin: auto;
+    }
+    /*FIM FOOTER*/
+}
+
+@media (max-width: 991px){
+    /*FOOTER*/
+    #footer .app{
+        margin-top: 30px;
+        padding-left: 45px;
+    }
+
+    #footer .area-img{
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+
+    #footer .img{
+        width: 250px;
+        margin-left: -13px;
+    }
+
+    #footer .corpo-texto{
+        margin: 0 -5px  auto;
+    }
+
+    #footer .area-loja{
+        width: 120px;
+    }
+
+    #footer .loja-app, .loja-app-1{
+        margin-left: -35px;
+        width: 150px;
+    }
+    /*FIM FOOTER*/
+}
+
+@media (max-width: 768px){
+    /*FOOTER*/
+    #footer .app{
+        margin-top: 30px;
+        padding-left: 45px;
+    }
+
+    #footer .area-img{
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+    #footer .img{
+        width: 250px;
+        margin-left: -13px;
+    }
+
+    #footer .corpo-texto{
+        margin: 0 -5px  auto;
+    }
+
+    #footer .area-loja{
+        width: 120px;
+    }
+
+    #footer .loja-app, .loja-app-1{
+        margin-left: -35px;
+        width: 150px;
+    }
+    /*FIM FOOTER*/
+}
+
+@media screen and (max-width: 767px){
+    #footer .app{
+        text-align: center;
+    }
+
+    #footer .area-img{
+        margin: 0;
+    }
+
+    #footer .corpo-texto{
+        width: 455px;
+    }
+
+    #footer .area-loja{
+        margin-bottom: 40px;
+        margin-left: auto;
+        padding-right: 101px;
+        width: auto;
+    }
+
+    #footer .loja-app, .loja-app-1{
+        margin-left: auto;
+        width: 200px;
+    }
+
+    #footer .loja-app-1{
+        margin-left: 100px;
+    }
+
+    #footer .loja{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer .loja-0{
+        order: 3;
+    }
+
+    #footer .loja-1{
+        order: 1;
+    }
+
+    #footer .loja-2{
+        order: 2;
+    }
+
+}
+
+@media (max-width: 575px){
+    #footer .app{
+        text-align: center;
+    }
+    
+    #footer .area-img{
+        margin: 0;
+    }
+    
+    #footer .corpo-texto{
+        width: 455px;
+    }
+    
+    #footer .area-loja{
+        width: auto;
+        padding-right: 70px;
+    }
+    
+    #footer .loja-app{
+        width: 190px;
+    }
+    
+    #footer .loja-app-1{
+        width: 190px;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 543px){
+    #footer .app{
+        text-align: center;
+    }
+        
+    #footer .area-img{
+        margin: 0;
+    }
+        
+    #footer .corpo-texto{
+        width: 455px;
+    }
+        
+    #footer .area-loja{
+        width: auto;
+        padding-right: 70px;
+    }
+        
+    #footer .loja-app{
+        width: 180px;
+    }
+        
+    #footer .loja-app-1{
+        width: 180px;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 523px){
+    #footer .app{
+        text-align: center;
+    }
+            
+    #footer .area-img{
+        margin: 0;
+    }
+            
+    #footer .corpo-texto{
+        width: 455px;
+    }
+            
+    #footer .area-loja{
+        width: auto;
+        padding-right: 70px;
+    }
+            
+    #footer .loja-app{
+        width: 170px;
+    }
+            
+    #footer .loja-app-1{
+        width: 170px;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 503px){
+    #footer .app{
+        text-align: center;
+    }
+                
+    #footer .area-img{
+        margin: 0;
+    }
+                
+    #footer .corpo-texto{
+        width: 455px;
+    }
+                
+    #footer .area-loja{
+        width: auto;
+        padding-right: 70px;
+    }
+                
+    #footer .loja-app{
+        width: 160px;
+    }
+                
+    #footer .loja-app-1{
+        width: 160px;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 425px){
+    #footer .app{
+        text-align: center;
+    }
+
+    #footer .area-img{
+        margin: 0;
+    }
+
+    #footer .corpo-texto{
+        width: 455px;
+    }
+
+    #footer .area-loja{
+        width: auto;
+        padding-left: 80px;
+    }
+
+    #footer .loja-app{
+        width: 170px;
+    }
+
+    #footer .loja-app-1{
+        width: 170px;
+    }
+}
+
+@media (max-width: 375px){
+    #footer .app{
+        text-align: center;
+    }
+
+    #footer .area-img{
+        margin: 0;
+    }
+
+    #footer .corpo-texto{
+        width: 455px;
+    }
+
+    #footer .area-loja{
+        width: auto;
+        padding-left: 55px;
+    }
+
+    #footer .loja-app{
+        width: 170px;
+    }
+
+    #footer .loja-app-1{
+        width: 170px;
+    }
+}
+
+@media (max-width: 320px){
+    #footer .app{
+        text-align: center;
+    }
+
+    #footer .area-img{
+        margin: 0;
+    }
+
+    #footer .corpo-texto{
+        width: 455px;
+    }
+
+    #footer .area-loja{
+        width: auto;
+        padding-left: 30px;
+    }
+
+    #footer .loja-app{
+        width: 170px;
+    }
+
+    #footer .loja-app-1{
+        width: 170px;
+    }
+}
+/*FIM RESPONSIVIDADE*/

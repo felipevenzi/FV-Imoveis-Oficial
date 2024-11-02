@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.35mm" height="6.35mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 86.13 86.13"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#9C28B1;fill-rule:nonzero}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 86.13l86.13 0 0 -86.13 -86.13 0 0 86.13z"/>
+   </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_2821549971792">
+    <polygon class="fil0" points="28.96,23.17 34.01,23.17 34.01,28.21 28.96,28.21 "/>
+    <polygon class="fil0" points="28.96,34.75 34.01,34.75 34.01,39.8 28.96,39.8 "/>
+    <polygon class="fil0" points="52.12,34.75 57.17,34.75 57.17,39.8 52.12,39.8 "/>
+    <polygon class="fil0" points="63.71,34.75 68.76,34.75 68.76,39.8 63.71,39.8 "/>
+    <polygon class="fil0" points="52.12,46.33 57.17,46.33 57.17,51.38 52.12,51.38 "/>
+    <polygon class="fil0" points="63.71,46.33 68.76,46.33 68.76,51.38 63.71,51.38 "/>
+    <polygon class="fil0" points="52.12,57.92 57.17,57.92 57.17,62.96 52.12,62.96 "/>
+    <polygon class="fil0" points="63.71,57.92 68.76,57.92 68.76,62.96 63.71,62.96 "/>
+    <polygon class="fil0" points="52.12,69.5 57.17,69.5 57.17,74.55 52.12,74.55 "/>
+    <polygon class="fil0" points="63.71,69.5 68.76,69.5 68.76,74.55 63.71,74.55 "/>
+    <polygon class="fil0" points="17.37,34.75 22.42,34.75 22.42,39.8 17.37,39.8 "/>
+    <polygon class="fil0" points="28.96,46.33 34.01,46.33 34.01,51.38 28.96,51.38 "/>
+    <polygon class="fil0" points="17.37,46.33 22.42,46.33 22.42,51.38 17.37,51.38 "/>
+    <polygon class="fil0" points="28.96,57.92 34.01,57.92 34.01,62.96 28.96,62.96 "/>
+    <polygon class="fil0" points="17.37,57.92 22.42,57.92 22.42,62.96 17.37,62.96 "/>
+    <path class="fil0" d="M80.34 81.08l0 -57.92 -34.75 0 0 -12.04 -5.79 0.97 0 -12.09 -28.21 0 0 16.8 -5.79 0.96 0 63.32 -5.79 0 0 5.05 86.13 0 0 -5.05 -5.79 0zm-5.05 -52.87l0 52.87 -29.7 0 0 -52.87 29.7 0zm-58.66 -23.17l18.12 0 0 7.89 -18.12 3.02 0 -10.91zm-5.79 16.99l29.7 -4.95 0 6.08 0 57.92 -6.54 0 0 -11.58 -16.63 0 0 11.58 -6.54 0 0 -59.05zm18.12 59.05l-6.54 0 0 -6.54 6.54 0 0 6.54z"/>
+   </g>
+  </g>
+  <polygon class="fil1" points="-0,86.13 86.13,86.13 86.13,0 -0,0 "/>
+ </g>
+</svg>

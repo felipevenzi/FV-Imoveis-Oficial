@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.35mm" height="6.35mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 63.61 63.61"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#9C28B1;fill-rule:nonzero}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 63.61l63.61 0 0 -63.61 -63.61 0 0 63.61z"/>
+   </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_2820680199488">
+    <path class="fil0" d="M24.85 22.31l-2.76 2.5c1.96,2.44 4.6,4.45 7.85,5.1l0 3.78 3.73 0 0 -3.52c3.55,-0.24 7.15,-2.92 7.75,-6.48 0.84,-4.83 -3.39,-7.72 -7.75,-9.06l0 -7.32c1.88,0.2 4,1.7 5.54,3.02l2.31 -2.92c-2.14,-1.99 -5.63,-3.79 -7.85,-3.85l0 -3.55 -3.73 0 0 3.76c-2.93,0.63 -5.34,2.95 -5.73,5.81 -0.36,4.1 1.56,6.13 5.73,7.58l0 8.92c-3.27,-0.88 -5.09,-3.76 -5.09,-3.76zm3.05 -12.19c0.16,-1.09 0.91,-1.98 2.04,-2.46l0 5.44c-2.09,-0.68 -2.19,-1.96 -2.04,-2.99zm9.85 12.92c0,1.51 -1.76,3.05 -4.08,3.38l0 -7.8c0.14,0.05 4.08,1.25 4.08,4.42z"/>
+    <path class="fil0" d="M57.19 51.32l0 -6.82 0.82 0.49 1.92 -3.2 -13.16 -7.9 -13.16 7.9 1.92 3.2 0.82 -0.49 0 6.82 -9.1 0 0 -6.82 0.82 0.49 1.92 -3.2 -13.16 -7.9 -13.16 7.9 1.92 3.2 0.82 -0.49 0 6.82 -6.42 0 0 3.73 63.61 0 0 -3.73 -6.42 0 0 0zm-38.49 0l0 -4.55 -3.73 0 0 4.55 -4.83 0 0 -9.06 6.69 -4.01 6.69 4.01 0 9.06 -4.83 0zm29.94 0l0 -4.55 -3.73 0 0 4.55 -4.83 0 0 -9.06 6.69 -4.01 6.69 4.01 0 9.06 -4.83 0z"/>
+    <polygon class="fil0" points="-0,59.87 63.61,59.87 63.61,63.6 -0,63.6 "/>
+   </g>
+  </g>
+  <polygon class="fil1" points="-0,63.61 63.61,63.61 63.61,0 -0,0 "/>
+ </g>
+</svg>

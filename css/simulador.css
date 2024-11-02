@@ -1,0 +1,17 @@
+#simulador .obrigatorio{
+    color: var(--danger);
+}
+
+#simulador .fs-base{
+    background-color: var(--primary-opacity);
+}
+
+#simulador .btn-simule-financiamento{
+    border-radius: 15px;
+    height: 40px;
+    width: 25%;
+}
+
+#simulador .img-simulador{
+    width: 530PX;
+}

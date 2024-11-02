@@ -1,0 +1,19 @@
+:root{
+    --primary: #6b1bb3;
+    --primary-1: #500e8a;
+    --primary-button: #7b0191;
+    --primary-opacity: #9c28b11c;
+    --secundary: #370f60;
+    --tertiary: #ff0000;
+    --white: #fff;
+    --black: #000;
+    --footer: #f5f4f8;
+    --footer-2: #c5c5c5;
+    --link-useBroker: #ff0000;
+    --grey: #615959;
+    --grey-1: #A0A0A0;
+    --gold: #ff0000;
+    --facebook: #3d62ad;
+    --google: #5a95f5;
+    --danger: #ff0000;
+}
